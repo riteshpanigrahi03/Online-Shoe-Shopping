@@ -1,0 +1,64 @@
+body
+{
+
+background-color: lightblue;
+}
+ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: lightblue;
+}
+
+li a {
+
+	font-size: 20px;
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: red;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+#heading
+{
+	color: orange;
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif; 
+	font-size: 70px;
+	font-weight: bold;
+	text-shadow: 5px 4px gray;
+	position: relative;
+	top: 50px;
+	
+	}
+#d2
+{
+	position: relative;
+	bottom: 200px;
+	left: 80px;
+	
+}
+.sign_up_in
+{
+	background:    #073763;
+background:    -webkit-linear-gradient(#073763, #073763 50%, #3d85c6 50%, #3d85c6);
+background:    linear-gradient(#073763, #073763 50%, #3d85c6 50%, #3d85c6);
+border-radius: 1000px;
+padding:       8px 16px;
+color:         #ffffff;
+display:       inline-block;
+font:          normal 700 24px/1 "Droid Serif", serif;
+text-align:    center;
+text-shadow:   2px 2px #000000;
+}

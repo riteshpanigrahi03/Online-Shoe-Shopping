@@ -1,0 +1,59 @@
+<head>
+	<link rel="stylesheet" type="text/css" href="myStyle.css">
+<title>
+Fashion Kraze
+</title>
+</head>
+
+<body>
+
+<p id="heading">Fashion Kraze</p>
+<div id="d1">
+<ul>
+<li><a href="frontPage.html">Home</a>&nbsp&nbsp</li>
+<li><a href="about us.html">About Us</a>&nbsp&nbsp</li>
+<li><a href="category.html">Category</a>&nbsp&nbsp</li>
+<li><a href="contact us.html">Contact Us</a>&nbsp&nbsp</li>
+<li><a href="form.html">Register Yourself</a>&nbsp&nbsp</li>
+</ul>
+</div>
+<div style="text-decoration: underline;">
+<center><font color="red" font size="50"font face="Viner Hand ITC" >Welcome to the World of Fashion Kraze where you will find the Grate variety of footware from our Fine collections </font></center></div>
+<h2>
+<Font face="Brussels">
+<br>
+<b>
+<center>
+<a href="Man.html">Mens wear</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a href="Women.html">Womens wear</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+<a href="kids.html">Kids wear</a>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+</center>
+
+<div id="demo">
+<h1>The XMLHttpRequest Object</h1>
+<button type="button" onclick="loadDoc()">Change Content</button>
+</div>
+
+<script>
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+      document.getElementById("demo").innerHTML =
+      this.responseText;
+    }
+  };
+  xhttp.open("GET", "ajax_info.txt", true);
+  xhttp.send();
+}
+</script>
+
+
+
+
+
+
+
+</body>
+
+</html>
